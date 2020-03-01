@@ -1,0 +1,58 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
+    background-color: #bbbbbb;
+}
+
+.center {
+    text-align: center;
+}
+
+button:hover {
+    background: black;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+a:hover {
+    color: red;
+    transition: 0.5s;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.up {
+    text-transform: uppercase;
+}
+
+.left-margin {
+    margin-left: 60px;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 4px 3px;
+}
+
